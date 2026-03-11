@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Inventory Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Inventory Manager</h1>
+        
+        <div class="form-group">
+            <input type="text" id="itemName" placeholder="Product Name">
+            <input type="number" id="itemQty" placeholder="Quantity">
+            <button onclick="addItem()">Add Item</button>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Quantity</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="inventoryList"></tbody>
+        </table>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
