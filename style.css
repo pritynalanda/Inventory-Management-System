@@ -1,0 +1,9 @@
+body { font-family: 'Segoe UI', sans-serif; background: #f0f2f5; display: flex; justify-content: center; }
+.container { background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 80%; margin-top: 50px; }
+h1 { color: #333; text-align: center; }
+.form-group { display: flex; gap: 10px; margin-bottom: 20px; }
+input { padding: 10px; border: 1px solid #ddd; border-radius: 5px; flex: 1; }
+button { padding: 10px 20px; background: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; }
+table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+th, td { border-bottom: 1px solid #ddd; padding: 12px; text-align: left; }
+.delete-btn { background: #dc3545; }
