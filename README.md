@@ -3,7 +3,7 @@
 A lightweight, browser-based application to manage product stocks efficiently using Vanilla JavaScript and Local Storage.
 
 ## 🚀 Live Demo
-[Paste your GitHub Pages link here]
+Link: https://pritynalanda.github.io/Inventory-Management-System/
 
 ## ✨ Key Features
 * **CRUD Operations:** Add and delete inventory items in real-time.
